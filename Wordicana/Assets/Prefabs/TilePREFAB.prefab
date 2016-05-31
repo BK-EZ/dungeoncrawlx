@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &189276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436142}
+  - 212: {fileID: 21251698}
+  - 114: {fileID: 11496334}
+  - 60: {fileID: 6031878}
+  m_Layer: 0
+  m_Name: TilePREFAB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &436142
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 189276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.81, y: 1.29, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!60 &6031878
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 189276}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.185, y: 1.66}
+      - {x: -1.7049999, y: 0.90999997}
+      - {x: -1.7049999, y: -0.87}
+      - {x: -0.13499999, y: -1.63}
+      - {x: 0.015, y: -1.63}
+      - {x: 1.5849999, y: -0.83}
+      - {x: 1.5849999, y: 0.89}
+      - {x: 0.015, y: 1.66}
+--- !u!114 &11496334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 189276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b227a61ff4de442a49dae469cf1147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerScript: {fileID: 0}
+  tile_sprite: {fileID: 21300000, guid: 234308c5f9e2a87449d3fa36f4a96324, type: 3}
+  tileSelected_sprite: {fileID: 21300000, guid: 7724d0cb15d9a5a4b99a98ec5de75e29,
+    type: 3}
+  tileMarked_sprite: {fileID: 21300000, guid: 9648d8076d436314083824ab827d6dc7, type: 3}
+  tileObstacle_sprite: {fileID: 21300000, guid: 2646a43dadf8f7048a6437a1bb2fbd80,
+    type: 3}
+  unit: {fileID: 0}
+  isSelected: 0
+  isMarked: 0
+  isObstacle: 0
+  isBorder: 0
+  chainStarter: 0
+  isObstacleT: 0
+  pathVal: -1
+  row: 0
+  col: 0
+--- !u!212 &21251698
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 189276}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 234308c5f9e2a87449d3fa36f4a96324, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0

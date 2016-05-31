@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1CFF09C2-C3C7-A681-5851-02BD1FFB0995}") = "Wordicana", "Assembly-CSharp.csproj", "{263E562A-E0FD-451A-305D-606614877903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{263E562A-E0FD-451A-305D-606614877903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263E562A-E0FD-451A-305D-606614877903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263E562A-E0FD-451A-305D-606614877903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263E562A-E0FD-451A-305D-606614877903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7900 Series (ID=0x6798)
+    Vendor:   ATI
+    VRAM:     3051 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+desktop: 1920x1080 144Hz; virtual: 3968x1152 at -2048,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\PSI\Desktop\Bane-icana\testbuild_Data\Managed\System.Core.dll (this message is harmless)
+IsolatedStorageException: Could not find a part of the path "C:\Users\Public\Documents\Unity Projects\test02\Assets\Lists\corncob_caps.txt".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.OpenText (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.ReadAllLines (System.String path) [0x00000] in <filename unknown>:0 
+  at letterGenerator..ctor () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at letterGenerator.FillLetters () [0x00000] in <filename unknown>:0 
+  at letterGenerator.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
